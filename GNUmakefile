@@ -1,6 +1,5 @@
 THISDIR := otherbook
 THISBOOK := $(THISDIR)
-BASEVER := 133b346
 
 include ../latex/make.bookvars
 
