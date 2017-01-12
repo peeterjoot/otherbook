@@ -3,10 +3,10 @@ THISBOOK := $(THISDIR)
 
 include ../latex/make.bookvars
 
-FIGURES := ../../figures/$(THISBOOK)
+FIGURES := ../figures/$(THISBOOK)
 
-ORIG_FIGURE_DIRS += ../../figures/classicalmechanics
-ORIG_FIGURE_DIRS += ../../figures/gabook
+ORIG_FIGURE_DIRS += ../figures/classicalmechanics
+ORIG_FIGURE_DIRS += ../figures/gabook
 
 #LOCAL_FIGURE_FILES += hoopSpring.png
 #LOCAL_FIGURE_FILES += parallelogramArea.png
