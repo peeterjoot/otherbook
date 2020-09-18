@@ -3,73 +3,110 @@
 % Licenced as described in the file LICENSE under the root directory of this GIT repository.
 %
 %----------------------------------------------------------------------------------------
-\part{Incomplete}
-   \include{greens}
-   \include{gradientAltCoord}
-
-   % merge these three:
-   %\include{gaBasics}
-   %\include{dotBlade}
-   %\include{gaMintro}
-
-   \include{decodingMercedFlorez}
-   \include{dotBlade_rough}
-   \include{epsilonMixed}
-   \include{interactionEnergy}
-   \include{lightQuantize}
-   \include{maxwellSepVars}
-   \include{maxwellVacuum_roughNotes}
-   \include{maxwellHomoFirstOrder}
-
+%\part{Incomplete}
+   \mychapter{Green's functions}
+      \input{greens.tex}
+   \mychapter{Gradient and Divergence in different coordinate systems}
+      \input{gradientAltCoord.tex}
+%
+   \mychapter{Decoding the Merced Florez article}
+      \input{decodingMercedFlorez.tex}
+   \mychapter{Dot product of vector and blade}
+      \input{dotBlade_rough.tex}
+   \mychapter{Epsilon Mixed Tensor}
+      \input{epsilonMixed.tex}
+   \mychapter{Electrodynamic interaction energy and momentum}
+      \input{interactionEnergy.tex}
+   \mychapter{Light and Electron Quantization?}
+      \input{lightQuantize.tex}
+   \mychapter{Separation of variables applied to homogeneous Maxwell equation}
+      \input{maxwellSepVars.tex}
+   \mychapter{blah}
+      \input{maxwellVacuum_roughNotes.tex}
+   \mychapter{Transverse light wave propagation with z dependence}
+      \input{maxwellHomoFirstOrder.tex}
 %\part{What is the status of these?}
    % think these were forked from ../relativity/ for blogit.
-   %\include{frequencyTx}
-   %\include{invarianceEnMom}
-   %\include{poincareTx}
-   %\include{transverseField}
-
-\part{Wrong}
-   \include{twobodies}
-   \include{qmbFirstTry}         % may 09/09
-   \include{bivectorSelectWrong}
-
-\part{Geometric-algebra}
-   \include{gacsQ88}
-   \include{shear}
-   \include{twoNinetyRotations}
-   \include{wedgeNormVsGaNorm}
-   \include{emTensor}
-   \include{matrixToOperator}
-
-\part{Lut}
-   \include{schwartzchildMetric}
-   \include{tangentspace}
-
-\part{Maybe wrong}
-   \include{waveguideRetardedAdvanced}
-
-\part{Stubs and Fragments}
-   \include{scratchPlanewave}
-   \include{stubEmFields}
-   \include{lorentzTxEmPotential}
-   \include{faradayLagrangian}
-   \include{lorentz_force_tx_2}
-
-\part{Correspondence}
-   \include{voltageCurrentResistance}
-   \include{rindler}
-   \include{constantQ}
-   \include{euler}
-   \include{pfSch}
-   \include{m}
-   \include{box}
-   \include{lutQ0304}
-   \include{srLagrangianQ}
-   \include{reviewAlanGabook}
-   \include{reviewAlanGabookCh4}
-   \include{longWireQ}
-   \include{ellipticQ}
-
+   %\input{frequencyTx.tex}
+   %\input{invarianceEnMom.tex}
+   %\input{poincareTx.tex}
+   %\input{transverseField.tex}
+%
+%\part{Wrong}
+%   \mychapter{Time for two bodies to converge in space}
+%      \input{twobodies.tex}
+%   \mychapter{VERSION: First try at one dimensional rectangular Quantum barrier problem}
+%      \input{qmbFirstTry.tex}
+%   \mychapter{bivectorSelectWrong}
+%      \input{bivectorSelectWrong.tex}
+%
+%\part{Geometric-algebra}
+   \mychapter{Questioning equation 8.8 from GASC}
+      \input{gacsQ88.tex}
+   \mychapter{Notes on shear transformation}
+      \input{shear.tex}
+   \mychapter{Composition of rotations exercise.  Two nineties}
+      \input{twoNinetyRotations.tex}
+   \mychapter{Wedge product norm and GA bivector norm comparison}
+      \input{wedgeNormVsGaNorm.tex}
+   \mychapter{Geometric Algebra: Signs of electromagnetic field tensor components?}
+      \input{emTensor.tex}
+   \mychapter{2D matrix vs. GA wedge-dot vector to vector function}
+      \input{matrixToOperator.tex}
+%
+%\part{Lut}
+%
+   \mychapter{Some GR Notes}
+      \input{schwartzchildMetric.tex}
+   \mychapter{tangentspace}
+      \input{tangentspace.tex}
+%
+%\part{Maybe wrong}
+   \mychapter{(A POSSIBLY WRONG) Superposition of transverse electromagnetic field solutions}
+      \input{waveguideRetardedAdvanced.tex}
+%
+%\part{Stubs and Fragments}
+%
+   \mychapter{scratch planewave}
+      \input{scratchPlanewave.tex}
+   \mychapter{stub em fields}
+      \input{stubEmFields.tex}
+   \mychapter{Lorentz force interaction}
+      \input{lorentzTxEmPotential.tex}
+   \mychapter{REMOVED FROM electric field energy}
+      \input{faradayLagrangian.tex}
+   \mychapter{lorentz_force_tx_2}
+      \input{lorentz_force_tx_2.tex}
+%
+%\part{Correspondence}
+%
+   \mychapter{Voltage current, and resistance}
+      \input{voltageCurrentResistance.tex}
+   \mychapter{rindler}
+      \input{rindler.tex}
+   \mychapter{constant q}
+      \input{constantQ.tex}
+   \mychapter{euler}
+      \input{euler.tex}
+   \mychapter{pf sch}
+      \input{pfSch.tex}
+   \mychapter{matteo m}
+      \input{m.tex}
+   \mychapter{box}
+      \input{box.tex}
+   \mychapter{lut q0304}
+      \input{lutQ0304.tex}
+   \mychapter{sr lagrangian}
+      \input{srLagrangianQ.tex}
+   \mychapter{Chapter I-III comments on Alan's book}
+      \input{reviewAlanGabook.tex}
+   \mychapter{review alan ch4}
+      \input{reviewAlanGabookCh4.tex}
+   \mychapter{long wire q}
+      \input{longWireQ.tex}
+%
+   \mychapter{Questions about: A primer on elliptic functions with applications in classical mechanics}
+      \input{ellipticQ.tex}
+%
 %\part{Chronology}
-%\include{cronology}
-
+%\input{cronology.tex}
